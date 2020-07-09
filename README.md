@@ -14,9 +14,13 @@
 | | ⍟ commit "COMMIT MESSAGE" (still on feature-[BRANCH NAME])
 ```
 
-- git checkout -b [BRANCH NAME]
-- git checkout [BRANCH NAME]
-- git branch
+## New Git Commands Introduced
+
+- `git checkout -b <BRANCH NAME>`
+- `git checkout <BRANCH NAME>`
+- `git branch`
+- `git pull origin <BRANCH NAME>`
+- `git merge <BRANCH NAME>`
 
 
 ## Common Branches
