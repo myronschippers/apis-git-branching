@@ -40,6 +40,7 @@ function clickEditRank() {
     return;
   }
 
+  // NOTHING TO SAY
   $(this).parent()
     .siblings('.js-rank')
     .html(`<input type="number" placeholder="new rank" class="js-new-rank" />`);
