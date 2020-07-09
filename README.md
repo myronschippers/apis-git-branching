@@ -14,6 +14,10 @@
 | | ⍟ commit "COMMIT MESSAGE" (still on feature-[BRANCH NAME])
 ```
 
+- git checkout -b [BRANCH NAME]
+- git checkout [BRANCH NAME]
+- git branch
+
 
 ## Common Branches
 
