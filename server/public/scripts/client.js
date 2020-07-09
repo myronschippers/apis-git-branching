@@ -43,7 +43,9 @@ function clickEditRank() {
   $(this).parent()
     .siblings('.js-rank')
     .html(`<input type="number" placeholder="new rank" class="js-new-rank" />`);
-  $(this).text('SAVE');
+  $(this).text('SAVE')
+    .addClass('btn')
+    .removeClass('editBtn');
 }
 
 //
@@ -126,14 +128,18 @@ function render(musicLibrary) {
       <tr>
         <td>${musicItem.artist}</td>
         <td>${musicItem.track}</td>
-        <td class="js-rank">${musicItem.rank}</td>
+        <td class="js-rank">
+          ${musicItem.rank}
+        </td>
+        <td>
+          <button data-id-song="${musicItem.id}" class="editBtn js-btn-edit">
+            <img src="images/icons8-edit.svg" alt="Edit" />
+          </button>
+        </td>
         <td>${musicItem.published}</td>
         <td>
           <button data-id-song="${musicItem.id}" class="btn js-btn-delete">
             DELETE
-          </button>
-          <button data-id-song="${musicItem.id}" class="btn js-btn-edit">
-            EDIT
           </button>
         </td>
       </tr>
