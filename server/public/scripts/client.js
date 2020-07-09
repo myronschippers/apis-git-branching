@@ -43,7 +43,7 @@ function clickEditRank() {
   $(this).parent()
     .siblings('.js-rank')
     .html(`<input type="number" placeholder="new rank" class="js-new-rank" />`);
-  $(this).text('SAVE');
+  $(this).text('SAVE').addClass('btn');
 }
 
 //
@@ -130,7 +130,7 @@ function render(musicLibrary) {
           ${musicItem.rank}
         </td>
         <td>
-          <button data-id-song="${musicItem.id}" class="js-btn-edit">
+          <button data-id-song="${musicItem.id}" class="editBtn js-btn-edit">
             <img src="images/icons8-edit.svg" alt="Edit" />
           </button>
         </td>
