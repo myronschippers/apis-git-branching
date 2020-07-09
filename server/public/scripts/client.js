@@ -131,7 +131,7 @@ function render(musicLibrary) {
         </td>
         <td>
           <button data-id-song="${musicItem.id}" class="js-btn-edit">
-            EDIT
+            <img src="images/icons8-edit.svg" alt="Edit" />
           </button>
         </td>
         <td>${musicItem.published}</td>
