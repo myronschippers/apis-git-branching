@@ -10,6 +10,8 @@
 | | o feature-[BRANCH NAME]
 | | |
 | | ⍟ commit "COMMIT MESSAGE" (still on feature-[BRANCH NAME])
+| | |
+| | ⍟ commit "COMMIT MESSAGE" (still on feature-[BRANCH NAME])
 ```
 
 
