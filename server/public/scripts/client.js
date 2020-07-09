@@ -43,7 +43,9 @@ function clickEditRank() {
   $(this).parent()
     .siblings('.js-rank')
     .html(`<input type="number" placeholder="new rank" class="js-new-rank" />`);
-  $(this).text('SAVE').addClass('btn');
+  $(this).text('SAVE')
+    .addClass('btn')
+    .removeClass('editBtn');
 }
 
 //
