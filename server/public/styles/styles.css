@@ -33,10 +33,16 @@ body {
 .btn {
   padding: 10px 15px;
   border: 1px solid #056576;
+  /* background:; */
   background-color: #109cb5;
   color: #ffffff;
   cursor: pointer;
   border-radius: 6px;
   margin-bottom: 5px;
   font-size: 1.1rem;
+}
+
+.btn:hover {
+  background-color: #0c7e92;
+  border-color: #034753;
 }
