@@ -29,3 +29,14 @@ body {
   color: #ffffff;
   padding: 10px;
 }
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid #056576;
+  background-color: #109cb5;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
