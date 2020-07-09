@@ -129,10 +129,10 @@ function render(musicLibrary) {
         <td class="js-rank">${musicItem.rank}</td>
         <td>${musicItem.published}</td>
         <td>
-          <button data-id-song="${musicItem.id}" class="js-btn-delete">
+          <button data-id-song="${musicItem.id}" class="btn js-btn-delete">
             DELETE
           </button>
-          <button data-id-song="${musicItem.id}" class="js-btn-edit">
+          <button data-id-song="${musicItem.id}" class="btn js-btn-edit">
             EDIT
           </button>
         </td>
