@@ -136,7 +136,7 @@ function render(musicLibrary) {
         </td>
         <td>${musicItem.published}</td>
         <td>
-          <button data-id-song="${musicItem.id}" class="js-btn-delete">
+          <button data-id-song="${musicItem.id}" class="btn js-btn-delete">
             DELETE
           </button>
         </td>
