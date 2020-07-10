@@ -3,6 +3,10 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .tableWrapper {
   box-shadow: 0 3px 6px rgb(0,0,0,0.3);
   border-collapse: collapse;
@@ -28,4 +32,30 @@ body {
   background-color: #333334;
   color: #ffffff;
   padding: 10px;
+}
+
+.editBtn {
+  background: transparent;
+  color: #06588f;
+  border-width: 0;
+  width: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid #056576;
+  /* background:; */
+  background-color: #109cb5;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.btn:hover {
+  background-color: #0c7e92;
+  border-color: #034753;
 }
